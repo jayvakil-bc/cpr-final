@@ -139,6 +139,84 @@ q
 *** End of Measuring Strings Demo ***
 
 
+VERSION-3 TEST CASES
+
+
+============================================
+- - - - - - - - -  Test-1  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+q
+*** End of Copying Strings Demo ***
+
+
+============================================
+- - - - - - - - -  Test-2  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+New destination string is ''
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+
+============================================
+- - - - - - - - -  Test-3  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+12345
+New destination string is '12345'
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+
+============================================
+- - - - - - - - -  Test-4  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+Hello User
+New destination string is 'Hello User'
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+
+============================================
+- - - - - - - - -  Test-5  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm
+New destination string is 'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm'
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+
+============================================
+- - - - - - - - -  Test-6  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+Hey
+New destination string is 'Hey'
+Destination string is reset to empty
+Type the source string (q - to quit):
+q
+*** End of Copying Strings Demo ***
+
+
+
+
+
 
 
 

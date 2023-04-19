@@ -8,7 +8,7 @@
 
 void fundamentals(void) {
 	/* Version 1 */
-	
+
 	// Display a message to indicate the start of the demo
 	printf("*** Start of Indexing Strings Demo ***\n");
 
@@ -42,10 +42,10 @@ void fundamentals(void) {
 			// Print the character found at the specified position within the string
 			printf("The character found at %d position is \'%c\'\n",
 				(int)position, buffer1[position]);
-			}	
-		}while (strcmp(buffer1, "q") != 0);
+		}
+	} while (strcmp(buffer1, "q") != 0);
 	// Display a message to indicate the end of the demo
-	printf("*** End of Indexing Strings Demo ***\n\n");
+	printf("*** End of Indexing Strings�Demo�***\n\n");
 
 
 	/* Version 2 */
@@ -57,11 +57,11 @@ void fundamentals(void) {
 	char buffer2[BUFFER_SIZE];
 
 	// Using a do-while loop to prompt the user to input a string and a position until they enter "q" to quit
-	do{
+	do {
 		// Prompt user to input a string
 		printf("Type a string (q - to quit):\n");
 		// Read the string entered by user and stores it in the "buffer2" array
-		fgets(buffer2, BUFFER_SIZE, stdin);	
+		fgets(buffer2, BUFFER_SIZE, stdin);
 		// Removes the newline character at the end of the string
 		buffer2[strlen(buffer2) - 1] = '\0';
 
@@ -69,7 +69,7 @@ void fundamentals(void) {
 		if (strcmp(buffer2, "q") != 0)
 			// Display a message indicating the length of the string
 			printf("The length of \'%s\' is %d characters\n",
-				buffer2, (int)strlen(buffer2));		
+				buffer2, (int)strlen(buffer2));
 	} while (strcmp(buffer2, "q") != 0);
 
 	// Display a message to indicate the start of the demo
@@ -77,7 +77,37 @@ void fundamentals(void) {
 
 
 	/* Version 3 */
+
+	// Display a message to indicate the start of the demo
+	printf("*** Start of Copying Strings Demo***\n");
+
+	//Declare Variables
+	char destination[BUFFER_SIZE];
+	char source[BUFFER_SIZE];
+
+	// Using a do-while loop to prompt the user input untill the user enters "q"
+	do {
+		// Setting the destination string to empty
+		destination[0] = '\0';
+		// Display a message indicating the string is empty
+		printf("Destination string is reset to empty\n");
+		// Prompt the user to input a source string
+		printf("Type the source string (q - to quit):\n");
+		// Read the source string entered by user and stores it in the "source" array
+		fgets(source, BUFFER_SIZE, stdin);
+		// Removes the newline character at the end of the string
+		source[strlen(source) - 1] = '\0';
+
+		// Check if the user entered "q" to quit
+		if (strcmp(source, "q") != 0) {
+			// Copy the source string to destination string
+			strcpy(destination, source);
+			// Display a messsage indicating the new destination of the string
+			printf("New destination string is \'%s\'\n", destination);
+		}
+	} while (strcmp(source, "q") != 0);
+
+	// Display a message to indicate the start of the demo
+	printf("*** End of Copying Strings Demo***\n\n");
 }
-
-
 

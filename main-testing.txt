@@ -1,6 +1,336 @@
 ============================================
 - - - - - - - - -  Test-1  - - - - - - - - -
 ============================================
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (g - to quit):
+123
+Converted number is 123
+============================================
+- - - - - - - - -  Test-2  - - - - - - - - -
+============================================
+Type an int numeric string (g - to quit):
+-456
+Converted number is -456
+============================================
+- - - - - - - - -  Test-3  - - - - - - - - -
+============================================
+Type an int numeric string (g - to quit):
+0
+Converted number is 0
+============================================
+- - - - - - - - -  Test-4  - - - - - - - - -
+============================================
+Type an int numeric string (g - to quit):
+abc
+Converted number is 0
+============================================
+- - - - - - - - -  Test-5  - - - - - - - - -
+============================================
+Type an int numeric string (g - to quit):
+1.5
+Converted number is 1
+============================================
+- - - - - - - - -  Test-6  - - - - - - - - -
+============================================
+Type an int numeric string (g - to quit):
+2147483648
+Converted number is -2147483648
+============================================
+- - - - - - - - -  Test-7  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+12.34
+Converted number is 12.340000
+============================================
+- - - - - - - - -  Test-8  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+12.3a4
+Converted number is 12.300000
+============================================
+- - - - - - - - -  Test-9  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+q
+*** End of Converting Strings to double Demo ***
+============================================
+- - - - - - - - -  Test-10  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+1.7976931348623157E+308
+Converted number is 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000
+============================================
+- - - - - - - - -  Test-11  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+2.225074e-308
+Converted number is 0.000000
+============================================
+- - - - - - - - -  Test-12  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+2.23E-308
+Converted number is 0.000000
+============================================
+- - - - - - - - -  Test-13  - - - - - - - - -
+============================================
+Type the long numeric string (q - to quit): 
+1234567
+Converted number is 1234567
+============================================
+- - - - - - - - -  Test-14  - - - - - - - - -
+============================================
+Type the long numeric string (q - to quit): 
+-9223372036854775807
+Converted number is -9223372036854775807
+============================================
+- - - - - - - - -  Test-15  - - - - - - - - -
+============================================
+Type the long numeric string (q - to quit): 
+9223372036854775807
+Converted number is 9223372036854775807
+============================================
+- - - - - - - - -  Test-16  - - - - - - - - -
+============================================
+Type the long numeric string (q - to quit): 
+123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+Converted number is 9223372036854775807
+Type the long numeric string (q - to quit): 
+Converted number is 9223372036854775807
+Type the long numeric string (q - to quit): 
+Converted number is 9223372036854775807
+============================================
+- - - - - - - - -  Test-17  - - - - - - - - -
+============================================
+Type the long numeric string (q - to quit): 
+123abc456
+Converted number is 123
+============================================
+- - - - - - - - -  Test-18  - - - - - - - - -
+============================================
+Type the long numeric string (q - to quit): 
+ -987654321
+Converted number is -987654321
+
+
+VERSION-1 TEST CASES
+
+============================================
+- - - - - - - - -  Test-1  - - - - - - - - -
+============================================
+
+*** Start of Indexing strings Demo ***
+Type not empty string (q - to quit) :
+q
+*** End of Indexing strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-2  - - - - - - - - -
+============================================
+
+*** Start of Indexing strings Demo ***
+Type not empty string (q - to quit) :
+Hello
+Type the character position within the string :
+
+============================================
+- - - - - - - - -  Test-3  - - - - - - - - -
+============================================
+
+*** Start of Indexing strings Demo ***
+Type not empty string (q - to quit) :
+Hello
+Type the character position within the string :
+3
+The character found at 3 position is 'l'
+Type not empty string (q - to quit) :
+q
+*** End of Indexing strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-4  - - - - - - - - -
+============================================
+
+*** Start of Indexing strings Demo ***
+Type not empty string (q - to quit) :
+Hello User
+Type the character position within the string :
+
+============================================
+- - - - - - - - -  Test-5  - - - - - - - - -
+============================================
+
+*** Start of Indexing strings Demo ***
+Type not empty string (q - to quit) :
+Hello
+Type the character position within the string :
+8
+Too big... Position reduced to max. available
+The character found at 4 position is 'o'
+Type not empty string (q - to quit) :
+q
+*** End of Indexing strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-6  - - - - - - - - -
+============================================
+
+*** Start of Indexing strings Demo ***
+Type not empty string (q - to quit) :
+
+Type the character position within the string :
+0
+Too big... Position reduced to max. available
+The character found at -1 position is ''
+Type not empty string (q - to quit) :
+q
+*** End of Indexing strinas Demo ***
+
+
+VERSION-2 TEST CASES
+
+
+============================================
+- - - - - - - - -  Test-1  - - - - - - - - -
+============================================
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+q
+*** End of Measuring Strings Demo ***
+
+
+============================================
+- - - - - - - - -  Test-2  - - - - - - - - -
+============================================
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+
+The length of '' is 0 characters
+
+
+============================================
+- - - - - - - - -  Test-3  - - - - - - - - -
+============================================
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+s
+The length of 's' is 1 character
+
+
+============================================
+- - - - - - - - -  Test-4  - - - - - - - - -
+============================================
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+Hello User
+The length of 'Hello User' is 10 characters
+
+
+============================================
+- - - - - - - - -  Test-5  - - - - - - - - -
+============================================
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+This test is to check if the program runs successfully
+The length of 'This test is to check if the program runs successfully' is 54 characters
+
+
+============================================
+- - - - - - - - -  Test-6  - - - - - - - - -
+============================================
+
+ *** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+Hello
+The length of 'Hello' is 5 characters
+Type a string (q - to quit):
+q
+*** End of Measuring Strings Demo ***
+
+
+VERSION-3 TEST CASES
+
+
+============================================
+- - - - - - - - -  Test-1  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+q
+*** End of Copying Strings Demo ***
+
+
+============================================
+- - - - - - - - -  Test-2  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+New destination string is ''
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+
+============================================
+- - - - - - - - -  Test-3  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+12345
+New destination string is '12345'
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+
+============================================
+- - - - - - - - -  Test-4  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+Hello User
+New destination string is 'Hello User'
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+
+============================================
+- - - - - - - - -  Test-5  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm
+New destination string is 'qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm'
+Destination string is reset to empty
+Type the source string (q - to quit):
+
+
+============================================
+- - - - - - - - -  Test-6  - - - - - - - - -
+============================================
+*** Start of Copying Strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+Hey
+New destination string is 'Hey'
+Destination string is reset to empty
+Type the source string (q - to quit):
+q
+*** End of Copying Strings Demo ***
+
+
+============================================
+- - - - - - - - -  Test-1  - - - - - - - - -
+============================================
 *** Start of Concatenating strings Demo ***
 Type the 1st string (q - to quit):
 q
@@ -488,465 +818,266 @@ q
 ============================================
 - - - - - - - - -  Test-1  - - - - - - - - -
 ============================================
-***Start of Tokenizing Words Demo ***
-Type a few words seperated by space (q - to quit):
-hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
-Word #1 is 'hello'
-Word #2 is 'hello'
-Word #3 is 'hello'
-Word #4 is 'hello'
-Word #5 is 'hello'
-Word #6 is 'hello'
-Word #7 is 'hello'
-Word #8 is 'hello'
-Word #9 is 'hello'
-Word #10 is 'hello'
-Word #11 is 'hello'
-Word #12 is 'hello'
-Word #13 is 'hello'
-Word #14 is 'hello'
-Word #15 is 'hello'
-Word #16 is 'hello'
-Word #17 is 'hello'
-Word #18 is 'hello'
-Word #19 is 'hello'
-Word #20 is 'hello'
-Word #21 is 'hello'
-Word #22 is 'hello'
-Word #23 is 'hello'
-Word #24 is 'hello'
-Word #25 is 'hello'
-Word #26 is 'hello'
-Word #27 is 'hello'
-Word #28 is 'hello'
-Word #29 is 'hello'
-Word #30 is 'hello'
-Word #31 is 'hello'
-Word #32 is 'hello'
-Word #33 is 'hello'
-Word #34 is 'hello'
-Word #35 is 'hello'
-Word #36 is 'hello'
-Word #37 is 'hello'
-Word #38 is 'hello'
-Word #39 is 'hello'
-Word #40 is 'hello'
-Word #41 is 'hello'
-Word #42 is 'hello'
-Word #43 is 'hello'
-Word #44 is 'hello'
-Word #45 is 'hello'
-Word #46 is 'hello'
-Word #47 is 'hello'
-Word #48 is 'hello'
-Word #49 is 'hello'
-Word #50 is 'hell'
-Type a few words seperated by space (q - to quit):
-Word #1 is 'hello'
-Word #2 is 'hello'
-Word #3 is 'hello'
-Word #4 is 'hello'
-Word #5 is 'hello'
-Word #6 is 'hello'
-Word #7 is 'hello'
-Word #8 is 'hello'
-Word #9 is 'hello'
-Word #10 is 'hello'
-Word #11 is 'hello'
-Word #12 is 'hello'
-Word #13 is 'hello'
-Word #14 is 'hello'
-Word #15 is 'hello'
-Word #16 is 'hello'
-Word #17 is 'hello'
-Word #18 is 'hello'
-Word #19 is 'hello'
-Word #20 is 'hello'
-Word #21 is 'hello'
-Word #22 is 'hello'
-Word #23 is 'hello'
-Word #24 is 'hello'
-Word #25 is 'hello'
-Word #26 is 'hello'
-Word #27 is 'hello'
-Word #28 is 'hello'
-Word #29 is 'hello'
-Word #30 is 'hello'
-Word #31 is 'hello'
-Word #32 is 'hello'
-Word #33 is 'hello'
-Word #34 is 'hello'
-Word #35 is 'hello'
-Word #36 is 'hello'
-Word #37 is 'hello'
-Word #38 is 'hello'
-Word #39 is 'hello'
-Word #40 is 'hello'
-Word #41 is 'hello'
-Word #42 is 'hello'
-Word #43 is 'hello'
-Word #44 is 'hello'
-Word #45 is 'hello'
-Word #46 is 'hello'
-Word #47 is 'hello'
-Word #48 is 'hello'
-Word #49 is 'hello'
-Word #50 is 'hel'
-Type a few words seperated by space (q - to quit):
-Word #1 is 'o'
-Word #2 is 'hello'
-Word #3 is 'hello'
-Word #4 is 'hello'
-Word #5 is 'hello'
-Word #6 is 'hello'
-Word #7 is 'hello'
-Word #8 is 'hello'
-Word #9 is 'hello'
-Word #10 is 'hello'
-Word #11 is 'hello'
-Word #12 is 'hello'
-Word #13 is 'hello'
-Word #14 is 'hello'
-Word #15 is 'hello'
-Word #16 is 'hello'
-Word #17 is 'hello'
-Word #18 is 'hello'
-Word #19 is 'hello'
-Word #20 is 'hello'
-Word #21 is 'hello'
-Word #22 is 'hello'
-Word #23 is 'hello'
-Word #24 is 'hello'
-Word #25 is 'hello'
-Word #26 is 'hello'
-Word #27 is 'hello'
-Word #28 is 'hello'
-Word #29 is 'hello'
-Word #30 is 'hello'
-Word #31 is 'hello'
-Word #32 is 'hello'
-Word #33 is 'hello'
-Word #34 is 'hello'
-Word #35 is 'hello'
-Word #36 is 'hello'
-Word #37 is 'hello'
-Word #38 is 'hello'
-Word #39 is 'hello'
-Word #40 is 'hello'
-Word #41 is 'hello'
-Word #42 is 'hello'
-Word #43 is 'hello'
-Word #44 is 'hello'
-Word #45 is 'hello'
-Word #46 is 'hello'
-Word #47 is 'hello'
-Word #48 is 'hello'
-Word #49 is 'hello'
-Word #50 is 'hello'
-Word #51 is 'he'
-Type a few words seperated by space (q - to quit):
-Word #1 is 'lo'
-Word #2 is 'hello'
-Word #3 is 'hello'
-Word #4 is 'hello'
-Word #5 is 'hello'
-Word #6 is 'hello'
-Word #7 is 'hello'
-Word #8 is 'hello'
-Word #9 is 'hello'
-Word #10 is 'hello'
-Word #11 is 'hello'
-Word #12 is 'hello'
-Word #13 is 'hello'
-Word #14 is 'hello'
-Word #15 is 'hello'
-Word #16 is 'hello'
-Word #17 is 'hello'
-Word #18 is 'hello'
-Word #19 is 'hello'
-Word #20 is 'hello'
-Word #21 is 'hello'
-Word #22 is 'hello'
-Word #23 is 'hello'
-Word #24 is 'hello'
-Word #25 is 'hello'
-Word #26 is 'hello'
-Word #27 is 'hello'
-Word #28 is 'hello'
-Word #29 is 'hello'
-Word #30 is 'hello'
-Word #31 is 'hello'
-Word #32 is 'hello'
-Word #33 is 'hello'
-Word #34 is 'hello'
-Word #35 is 'hello'
-Word #36 is 'hello'
-Word #37 is 'hello'
-Type a few words seperated by space (q - to quit):
-
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo
+Type the substring:
+Foo
+'Foo' found at 0 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
 
 ============================================
 - - - - - - - - -  Test-2  - - - - - - - - -
 ============================================
-
-Type a few words seperated by space (q - to quit):
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo
+Type the substring:
+F
+'F' found at 0 position
+Type the string (q - to quit):
 q
-*** End of Tokenizing Words Demo ***
-
+*** End of Searching Strings Demo ***
 
 ============================================
 - - - - - - - - -  Test-3  - - - - - - - - -
 ============================================
-***Start of Tokenizing Words Demo ***
-Type a few words seperated by space (q - to quit):
-
-Type a few words seperated by space (q - to quit):
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Bar
+Type the substring:
+r
+'r' found at 2 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
 
 ============================================
 - - - - - - - - -  Test-4  - - - - - - - - -
 ============================================
-Type a few words seperated by space (q - to quit):
-hello
-Word #1 is 'hello'
-Type a few words seperated by space (q - to quit):
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+F
+Type the substring:
+F
+'F' found at 0 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
 
 ============================================
 - - - - - - - - -  Test-5  - - - - - - - - -
 ============================================
-Type a few words seperated by space (q - to quit):
-hello world
-Word #1 is 'hello'
-Word #2 is 'world'
-Type a few words seperated by space (q - to quit):
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo
+Type the substring:
+o
+'o' found at 1 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
 
 ============================================
 - - - - - - - - -  Test-6  - - - - - - - - -
 ============================================
-
-***Start of Tokenizing Words Demo ***
-Type a few words seperated by space (q - to quit):
-        hello
-Word #1 is '    hello'
-Type a few words seperated by space (q - to quit):
-
-
-VERSION-1 TEST CASES
-
-============================================
-- - - - - - - - -  Test-1  - - - - - - - - -
-============================================
-
-*** Start of Indexing strings Demo ***
-Type not empty string (q - to quit) :
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo
+Type the substring:
+Bar
+Not found
+Type the string (q - to quit):
 q
-*** End of Indexing strinas Demo ***
+*** End of Searching Strings Demo ***
 
-============================================
-- - - - - - - - -  Test-2  - - - - - - - - -
-============================================
-
-*** Start of Indexing strings Demo ***
-Type not empty string (q - to quit) :
-Hello
-Type the character position within the string :
-
-============================================
-- - - - - - - - -  Test-3  - - - - - - - - -
-============================================
-
-*** Start of Indexing strings Demo ***
-Type not empty string (q - to quit) :
-Hello
-Type the character position within the string :
-3
-The character found at 3 position is 'l'
-Type not empty string (q - to quit) :
-q
-*** End of Indexing strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-4  - - - - - - - - -
-============================================
-
-*** Start of Indexing strings Demo ***
-Type not empty string (q - to quit) :
-Hello User
-Type the character position within the string :
-
-============================================
-- - - - - - - - -  Test-5  - - - - - - - - -
-============================================
-
-*** Start of Indexing strings Demo ***
-Type not empty string (q - to quit) :
-Hello
-Type the character position within the string :
-8
-Too big... Position reduced to max. available
-The character found at 4 position is 'o'
-Type not empty string (q - to quit) :
-q
-*** End of Indexing strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-6  - - - - - - - - -
-============================================
-
-*** Start of Indexing strings Demo ***
-Type not empty string (q - to quit) :
-
-Type the character position within the string :
-0
-Too big... Position reduced to max. available
-The character found at -1 position is ''
-Type not empty string (q - to quit) :
-q
-*** End of Indexing strinas Demo ***
-
-
-VERSION-2 TEST CASES
-
-
-============================================
-- - - - - - - - -  Test-1  - - - - - - - - -
-============================================
-
-*** Start of Measuring Strings Demo ***
-Type a string (q - to quit):
-q
-*** End of Measuring Strings Demo ***
-
-
-============================================
-- - - - - - - - -  Test-2  - - - - - - - - -
-============================================
-
-*** Start of Measuring Strings Demo ***
-Type a string (q - to quit):
-
-The length of '' is 0 characters
-
-
-============================================
-- - - - - - - - -  Test-3  - - - - - - - - -
-============================================
-
-*** Start of Measuring Strings Demo ***
-Type a string (q - to quit):
-s
-The length of 's' is 1 character
-
-
-============================================
-- - - - - - - - -  Test-4  - - - - - - - - -
-============================================
-
-*** Start of Measuring Strings Demo ***
-Type a string (q - to quit):
-Hello User
-The length of 'Hello User' is 10 characters
-
-
-============================================
-- - - - - - - - -  Test-5  - - - - - - - - -
-============================================
-
-*** Start of Measuring Strings Demo ***
-Type a string (q - to quit):
-This test is to check if the program runs successfully
-The length of 'This test is to check if the program runs successfully' is 54 characters
-
-
-============================================
-- - - - - - - - -  Test-6  - - - - - - - - -
-============================================
-
- *** Start of Measuring Strings Demo ***
-Type a string (q - to quit):
-Hello
-The length of 'Hello' is 5 characters
-Type a string (q - to quit):
-q
-*** End of Measuring Strings Demo ***
-
-
-
-
-
-
-
-
-============================================
-- - - - - - - - -  Test-1  - - - - - - - - -
-============================================
-*** Start of Converting Strings to int Demo ***
-Type an int numeric string (g - to quit):
-123
-Converted number is 123
-============================================
-- - - - - - - - -  Test-2  - - - - - - - - -
-============================================
-Type an int numeric string (g - to quit):
--456
-Converted number is -456
-============================================
-- - - - - - - - -  Test-3  - - - - - - - - -
-============================================
-Type an int numeric string (g - to quit):
-0
-Converted number is 0
-============================================
-- - - - - - - - -  Test-4  - - - - - - - - -
-============================================
-Type an int numeric string (g - to quit):
-abc
-Converted number is 0
-============================================
-- - - - - - - - -  Test-5  - - - - - - - - -
-============================================
-Type an int numeric string (g - to quit):
-1.5
-Converted number is 1
-============================================
-- - - - - - - - -  Test-6  - - - - - - - - -
-============================================
-Type an int numeric string (g - to quit):
-2147483648
-Converted number is -2147483648
 ============================================
 - - - - - - - - -  Test-7  - - - - - - - - -
 ============================================
-Type the double numeric string (q - to quit): 
-12.34
-Converted number is 12.340000
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+1234
+Type the substring:
+4
+'4' found at 3 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
 ============================================
 - - - - - - - - -  Test-8  - - - - - - - - -
 ============================================
-Type the double numeric string (q - to quit): 
-12.3a4
-Converted number is 12.300000
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Fo#
+Type the substring:
+#
+'#' found at 2 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
 ============================================
 - - - - - - - - -  Test-9  - - - - - - - - -
 ============================================
-Type the double numeric string (q - to quit): 
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo
+Type the substring:
+
+'' found at 0 position
+Type the string (q - to quit):
 q
-*** End of Converting Strings to double Demo ***
+*** End of Searching Strings Demo ***
+
 ============================================
-- - - - - - - - -  Test-10  - - - - - - - - -
+- - - - - - - - -  Test-10 - - - - - - - - -
 ============================================
-Type the double numeric string (q - to quit): 
-1.7976931348623157E+308
-Converted number is 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo\n
+Type the substring:
+\n
+'\n' found at 3 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
 ============================================
-- - - - - - - - -  Test-11  - - - - - - - - -
+- - - - - - - - -  Test-11 - - - - - - - - -
 ============================================
-Type the double numeric string (q - to quit): 
-2.225074e-308
-Converted number is 0.000000
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Type the substring:
+Not found
+Type the string (q - to quit):
+Type the substring:
+'oooooooo' found at 0 position
+Type the string (q - to quit):
+Type the substring:
+'oooooooo' found at 0 position
+Type the string (q - to quit):
+Type the substring:
+'oooooooo' found at 0 position
+Type the string (q - to quit):
+Type the substring:
+
+VERSION 3
+
+
 ============================================
-- - - - - - - - -  Test-12  - - - - - - - - -
+- - - - - - - - -  Test-1  - - - - - - - - -
 ============================================
-Type the double numeric string (q - to quit): 
-2.23E-308
-Converted number is 0.000000
+
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot(q - to quit):
+hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.
+Senetnce #1 is 'hello from version 3'
+Senetnce #2 is 'hello from version 3'
+Senetnce #3 is 'hello from version 3'
+Senetnce #4 is 'hello from version 3'
+Senetnce #5 is 'hello from version 3'
+Senetnce #6 is 'hello from version 3'
+Senetnce #7 is 'hello from version 3'
+Senetnce #8 is 'hello from version 3'
+Senetnce #9 is 'hello from version 3'
+Senetnce #10 is 'hello from version 3'
+Senetnce #11 is 'hello from version 3'
+Senetnce #12 is 'hello from version 3'
+Senetnce #13 is 'hello from version 3'
+Senetnce #14 is 'hello from version 3'
+Senetnce #15 is 'hell'
+Type a few sentences separated by dot(q - to quit):
+Senetnce #1 is ' from version 3'
+Senetnce #2 is 'hello from version 3'
+Senetnce #3 is 'hello from version 3'
+Senetnce #4 is 'hello from version 3'
+Senetnce #5 is 'hello from version 3'
+Senetnce #6 is 'hello from version 3'
+Senetnce #7 is 'hello from version 3'
+Senetnce #8 is 'hello from version 3'
+Senetnce #9 is 'hello from version 3'
+Senetnce #10 is 'hello from version 3'
+Senetnce #11 is 'hello from version 3'
+Senetnce #12 is 'hello from version 3'
+Senetnce #13 is 'hello from version 3'
+Senetnce #14 is 'hello from version 3'
+Senetnce #15 is 'hello fro'
+Type a few sentences separated by dot(q - to quit):
+Senetnce #1 is ' version 3'
+Senetnce #2 is 'hello from version 3'
+Senetnce #3 is 'hello from version 3'
+Senetnce #4 is 'hello from version 3'
+Senetnce #5 is 'hello from version 3'
+Senetnce #6 is 'hello from version 3'
+Senetnce #7 is 'hello from version 3'
+Senetnce #8 is 'hello from version 3'
+Senetnce #9 is 'hello from version 3'
+Senetnce #10 is 'hello from version 3'
+Senetnce #11 is 'hello from version 3'
+Senetnce #12 is 'hello from version 3'
+Senetnce #13 is 'hello from version 3'
+Senetnce #14 is 'hello from version 3'
+Senetnce #15 is 'hello from ver'
+Type a few sentences separated by dot(q - to quit):
+Senetnce #1 is 'ion 3'
+Senetnce #2 is 'hello from version 3'
+Senetnce #3 is 'hello from version 3'
+Senetnce #4 is 'hello from version 3'
+Senetnce #5 is 'hello from version 3'
+Senetnce #6 is 'hello from version 3'
+Senetnce #7 is 'hello from version 3'
+Senetnce #8 is 'hello from version 3'
+
+
+============================================
+- - - - - - - - -  Test-2  - - - - - - - - -
+============================================
+
+Type a few sentences separated by dot(q - to quit):
+q
+*** End of Tokenizing Sentences Demo ***
+
+============================================
+- - - - - - - - -  Test-3  - - - - - - - - -
+============================================
+
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot(q - to quit):
+
+Type a few sentences separated by dot(q - to quit):
+
+
+============================================
+- - - - - - - - -  Test-4  - - - - - - - - -
+============================================
+
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot(q - to quit):
+hellofromversion3
+Senetnce #1 is 'hellofromversion3'
+
+============================================
+- - - - - - - - -  Test-5  - - - - - - - - -
+============================================
+
+Type a few sentences separated by dot(q - to quit):
+this is sentence1. this is sentence2.this is sentence3.
+Senetnce #1 is 'this is sentence1'
+Senetnce #2 is ' this is sentence2'
+Senetnce #3 is 'this is sentence3'
+
+============================================
+- - - - - - - - -  Test-6  - - - - - - - - -
+============================================
+
+Type a few sentences separated by dot(q - to quit):
+this is version3..this is text should not be double deliminated.
+Senetnce #1 is 'this is version3'
+Senetnce #2 is 'this is text should not be double deliminated'
+
+
 

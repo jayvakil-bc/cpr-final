@@ -5,7 +5,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define BUFFER_SIZE 80  // define a constant value for the maximum size of a string buffer
 
-void converting(void) 
+void converting(void)  // define the main function for this module
 {
     // v1 - Demonstrate conversion of strings to integers using atoi()
     printf("*** Start of Converting Strings to int Demo ***\n");
@@ -36,7 +36,7 @@ void converting(void)
     char doubleString[BUFFER_SIZE];
     double doubleNumber;//variable
 
-    //The following code will loop until the user types "q".
+    // The following code will loop until the user types "g".
     do
     {
         // The following line prompts the user to type a double numeric string.
@@ -54,9 +54,32 @@ void converting(void)
             doubleNumber = atof(doubleString);
             printf("Converted number is %f\n", doubleNumber);
         }
-    } while (strcmp(doubleString, "q") != 0);// The following line checks whether the user typed "g".
+    } while (strcmp(doubleString, "q") != 0);// The following line checks whether the user typed "q".
     printf("*** End of Converting Strings to double Demo ***\n\n");
 
     /* Version 3 */
-    // (No code is provided for Version 3)
+    printf("*** Start of Converting Strings to long Demo ***\n");
+
+    // Define a character array with a constant buffer size.
+    char longString[BUFFER_SIZE];
+    long longNumber;
+
+    // Start a do-while loop.
+    do {
+        printf("Type the long numeric string (q - to quit): \n"); 
+
+        // Get the user input and store it in the longString variable.
+        fgets(longString, BUFFER_SIZE, stdin);
+
+        // Remove the newline character at the end of the input string.
+        longString[strlen(longString) - 1] = '\0';
+
+        // If the user did not enter "q", convert the input string to a long integer and print the result.
+        if (strcmp(longString, "q") != 0) {
+            longNumber = atol(longString);
+            printf("Converted number is %ld\n", longNumber);
+        }
+    } while (strcmp(longString, "q") != 0); // Continue looping until the user enters "q".
+
+    printf("*** End of Converting Strings to long Demo ***\n\n");
 }   

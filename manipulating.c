@@ -5,6 +5,7 @@
 /**
  * Concatenates two strings taken from the standard input
  * Compares two strings taken from the standard input
+ * Searches two strings taken from the standard input
  */
 void manipulating(void) {
   printf("*** Start of Concatenating strings Demo ***\n");
@@ -66,4 +67,40 @@ void manipulating(void) {
   } while (strcmp(compare1, "q") != 0);
 
   printf("*** End of Comparing Strings Demo ***\n\n");
+
+  printf("*** Start of Searching Strings Demo ***\n");
+
+  char haystack[BUFFER_SIZE];
+  char needle[BUFFER_SIZE];
+  char *occurance = NULL; // Set occurance to safe state
+
+  do {
+    printf("Type the string (q - to quit):\n");
+    fgets(haystack, BUFFER_SIZE,
+          stdin); // Store the characters from stdin in haystack
+
+    haystack[strlen(haystack) - 1] = '\0'; // Append the null character
+
+    if (strcmp(haystack, "q") != 0) {
+      printf("Type the substring:\n");
+      fgets(needle, BUFFER_SIZE,
+            stdin); // Store the characters from stdin in needle
+
+      needle[strlen(needle) - 1] = '\0';
+
+      occurance = strstr(haystack, needle); // Store the strstr return value
+
+      if (occurance) {
+        printf(
+            "\'%s\' found at %d position\n", needle,
+            (int)(occurance - haystack)); // Difference between the two pointers
+      } else {
+        printf("Not found\n");
+      }
+    }
+  } while (strcmp(haystack, "q") != 0);
+
+  printf("*** End of Searching Strings Demo ***\n\n");
+
+  // End
 }

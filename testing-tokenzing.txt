@@ -1,0 +1,116 @@
+VERSION 3
+
+
+============================================
+- - - - - - - - -  Test-1  - - - - - - - - -
+============================================
+
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot(q - to quit):
+hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.hello from version 3.
+Senetnce #1 is 'hello from version 3'
+Senetnce #2 is 'hello from version 3'
+Senetnce #3 is 'hello from version 3'
+Senetnce #4 is 'hello from version 3'
+Senetnce #5 is 'hello from version 3'
+Senetnce #6 is 'hello from version 3'
+Senetnce #7 is 'hello from version 3'
+Senetnce #8 is 'hello from version 3'
+Senetnce #9 is 'hello from version 3'
+Senetnce #10 is 'hello from version 3'
+Senetnce #11 is 'hello from version 3'
+Senetnce #12 is 'hello from version 3'
+Senetnce #13 is 'hello from version 3'
+Senetnce #14 is 'hello from version 3'
+Senetnce #15 is 'hell'
+Type a few sentences separated by dot(q - to quit):
+Senetnce #1 is ' from version 3'
+Senetnce #2 is 'hello from version 3'
+Senetnce #3 is 'hello from version 3'
+Senetnce #4 is 'hello from version 3'
+Senetnce #5 is 'hello from version 3'
+Senetnce #6 is 'hello from version 3'
+Senetnce #7 is 'hello from version 3'
+Senetnce #8 is 'hello from version 3'
+Senetnce #9 is 'hello from version 3'
+Senetnce #10 is 'hello from version 3'
+Senetnce #11 is 'hello from version 3'
+Senetnce #12 is 'hello from version 3'
+Senetnce #13 is 'hello from version 3'
+Senetnce #14 is 'hello from version 3'
+Senetnce #15 is 'hello fro'
+Type a few sentences separated by dot(q - to quit):
+Senetnce #1 is ' version 3'
+Senetnce #2 is 'hello from version 3'
+Senetnce #3 is 'hello from version 3'
+Senetnce #4 is 'hello from version 3'
+Senetnce #5 is 'hello from version 3'
+Senetnce #6 is 'hello from version 3'
+Senetnce #7 is 'hello from version 3'
+Senetnce #8 is 'hello from version 3'
+Senetnce #9 is 'hello from version 3'
+Senetnce #10 is 'hello from version 3'
+Senetnce #11 is 'hello from version 3'
+Senetnce #12 is 'hello from version 3'
+Senetnce #13 is 'hello from version 3'
+Senetnce #14 is 'hello from version 3'
+Senetnce #15 is 'hello from ver'
+Type a few sentences separated by dot(q - to quit):
+Senetnce #1 is 'ion 3'
+Senetnce #2 is 'hello from version 3'
+Senetnce #3 is 'hello from version 3'
+Senetnce #4 is 'hello from version 3'
+Senetnce #5 is 'hello from version 3'
+Senetnce #6 is 'hello from version 3'
+Senetnce #7 is 'hello from version 3'
+Senetnce #8 is 'hello from version 3'
+
+
+============================================
+- - - - - - - - -  Test-2  - - - - - - - - -
+============================================
+
+Type a few sentences separated by dot(q - to quit):
+q
+*** End of Tokenizing Sentences Demo ***
+
+============================================
+- - - - - - - - -  Test-3  - - - - - - - - -
+============================================
+
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot(q - to quit):
+
+Type a few sentences separated by dot(q - to quit):
+
+
+============================================
+- - - - - - - - -  Test-4  - - - - - - - - -
+============================================
+
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot(q - to quit):
+hellofromversion3
+Senetnce #1 is 'hellofromversion3'
+
+============================================
+- - - - - - - - -  Test-5  - - - - - - - - -
+============================================
+
+Type a few sentences separated by dot(q - to quit):
+this is sentence1. this is sentence2.this is sentence3.
+Senetnce #1 is 'this is sentence1'
+Senetnce #2 is ' this is sentence2'
+Senetnce #3 is 'this is sentence3'
+
+============================================
+- - - - - - - - -  Test-6  - - - - - - - - -
+============================================
+
+Type a few sentences separated by dot(q - to quit):
+this is version3..this is text should not be double deliminated.
+Senetnce #1 is 'this is version3'
+Senetnce #2 is 'this is text should not be double deliminated'
+
+
+

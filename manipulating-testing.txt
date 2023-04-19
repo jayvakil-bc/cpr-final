@@ -484,3 +484,153 @@ q
 Type the 1st string to compare (q - to quit):
 q
 *** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-1  - - - - - - - - -
+============================================
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo
+Type the substring:
+Foo
+'Foo' found at 0 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-2  - - - - - - - - -
+============================================
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo
+Type the substring:
+F
+'F' found at 0 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-3  - - - - - - - - -
+============================================
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Bar
+Type the substring:
+r
+'r' found at 2 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-4  - - - - - - - - -
+============================================
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+F
+Type the substring:
+F
+'F' found at 0 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-5  - - - - - - - - -
+============================================
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo
+Type the substring:
+o
+'o' found at 1 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-6  - - - - - - - - -
+============================================
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo
+Type the substring:
+Bar
+Not found
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-7  - - - - - - - - -
+============================================
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+1234
+Type the substring:
+4
+'4' found at 3 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-8  - - - - - - - - -
+============================================
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Fo#
+Type the substring:
+#
+'#' found at 2 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-9  - - - - - - - - -
+============================================
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo
+Type the substring:
+
+'' found at 0 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-10 - - - - - - - - -
+============================================
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foo\n
+Type the substring:
+\n
+'\n' found at 3 position
+Type the string (q - to quit):
+q
+*** End of Searching Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-11 - - - - - - - - -
+============================================
+*** Start of Searching Strings Demo ***
+Type the string (q - to quit):
+Foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Type the substring:
+Not found
+Type the string (q - to quit):
+Type the substring:
+'oooooooo' found at 0 position
+Type the string (q - to quit):
+Type the substring:
+'oooooooo' found at 0 position
+Type the string (q - to quit):
+Type the substring:
+'oooooooo' found at 0 position
+Type the string (q - to quit):
+Type the substring:
