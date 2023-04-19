@@ -1,8 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
-//#include "fundamentals.h"
-//#include "manipulating.h"
+#include "fundamentals.h"
+#include "manipulating.h"
 #include "converting.h"
-//#include "tokenizing.h"
+#include "tokenizing.h"
 
 // This program allows the user to choose which module to run.
 int main (void)

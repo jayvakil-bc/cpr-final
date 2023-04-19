@@ -1,6 +1,493 @@
 ============================================
 - - - - - - - - -  Test-1  - - - - - - - - -
 ============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-2  - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+Foo
+Type the 2nd string:
+Bar
+Concatenated string is 'FooBar'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-3  - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+Foo
+Type the 2nd string:
+Foo
+Concatenated string is 'FooFoo'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-4  - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+Foo
+Type the 2nd string:
+B
+Concatenated string is 'FooB'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-5  - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+B
+Type the 2nd string:
+Bar
+Concatenated string is 'BBar'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-6  - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+Foo
+Type the 2nd string:
+123
+Concatenated string is 'Foo123'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-7  - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+123
+Type the 2nd string:
+Bar
+Concatenated string is '123Bar'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-8  - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+Foo
+Type the 2nd string:
+#
+Concatenated string is 'Foo#'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-9  - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+#
+Type the 2nd string:
+Bar
+Concatenated string is '#Bar'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-10 - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+Foo
+Type the 2nd string:
+
+Concatenated string is 'Foo'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+   
+============================================
+- - - - - - - - -  Test-11 - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+
+Type the 2nd string:
+Bar
+Concatenated string is 'Bar'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-12 - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+FOO
+Type the 2nd string:
+Bar
+Concatenated string is 'FOOBar'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-13 - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+Foo
+Type the 2nd string:
+\n
+Concatenated string is 'Foo\n'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-14 - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+\n
+Type the 2nd string:
+Bar
+Concatenated string is '\nBar'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-15 - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+Foo
+Type the 2nd string:
+BAR
+Concatenated string is 'FooBAR'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-16 - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+Foo
+Type the 2nd string:
+
+Concatenated string is 'Foo '
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-17 - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+
+Type the 2nd string:
+Bar
+Concatenated string is ' Bar'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-18 - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+Foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Type the 2nd string:
+zsh: trace trap  ./manipulating
+
+============================================
+- - - - - - - - -  Test-19 - - - - - - - - -
+============================================
+*** Start of Concatenating strings Demo ***
+Type the 1st string (q - to quit):
+Foo
+Type the 2nd string:
+q
+Concatenated string is 'Fooq'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenatinag strinas Demo ***
+
+============================================
+- - - - - - - - -  Test-1  - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-2  - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Foo
+Type the 2nd string to compare:
+Bar
+'Foo' string is greater than 'Bar'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-3  - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Foo
+Type the 2nd string to compare:
+Foo
+'Foo' string is equal to 'Foo'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-4  - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Foo
+Type the 2nd string to compare:
+B
+'Foo' string is greater than 'B'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-5  - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+B
+Type the 2nd string to compare:
+Bar
+'B' string is less than 'Bar'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-6  - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Foo
+Type the 2nd string to compare:
+123
+'Foo' string is greater than '123'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-7  - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+123
+Type the 2nd string to compare:
+Bar
+'123' string is less than 'Bar'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-8  - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Foo
+Type the 2nd string to compare:
+#
+'Foo' string is greater than '#'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-9  - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+#
+Type the 2nd string to compare:
+Bar
+'#' string is less than 'Bar'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-10 - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Foo
+Type the 2nd string to compare:
+
+'Foo' string is greater than ''
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-11 - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+
+Type the 2nd string to compare:
+Bar
+'' string is less than 'Bar'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-12 - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Foo
+Type the 2nd string to compare:
+\n
+'Foo' string is less than '\n'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-13 - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+\n
+Type the 2nd string to compare:
+Bar
+'\n' string is greater than 'Bar'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-14 - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+FOO
+Type the 2nd string to compare:
+Bar
+'FOO' string is greater than 'Bar'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-15 - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Foo
+Type the 2nd string to compare:
+BAR
+'Foo' string is greater than 'BAR'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-16 - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Foo
+Type the 2nd string to compare:
+
+'Foo' string is greater than ' '
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-17 - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+
+Type the 2nd string to compare:
+Bar
+' ' string is less than 'Bar'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-18 - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+Type the 2nd string to compare:
+'Fooooooo' string is less than 'oooooooo'
+Type the 1st string to compare (q - to quit):
+Type the 2nd string to compare:
+'oooooooo' string is equal to 'oooooooo'
+Type the 1st string to compare (q - to quit):
+Type the 2nd string to compare:
+'oooooooo' string is equal to 'oooooooo'
+Type the 1st string to compare (q - to quit):
+Type the 2nd string to compare:
+'oooooooo' string is equal to 'oooooooo'
+Type the 1st string to compare (q - to quit):
+Type the 2nd string to compare:
+
+============================================
+- - - - - - - - -  Test-19 - - - - - - - - -
+============================================
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Foo
+Type the 2nd string to compare:
+q
+'Foo' string is less than 'q'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
+
+============================================
+- - - - - - - - -  Test-1  - - - - - - - - -
+============================================
 ***Start of Tokenizing Words Demo ***
 Type a few words seperated by space (q - to quit):
 hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello 
@@ -243,245 +730,7 @@ Word #1 is '    hello'
 Type a few words seperated by space (q - to quit):
 
 
-============================================
-- - - - - - - - -  Test-1  - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-2  - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-Foo
-Type the 2nd string:
-Bar
-Concatenated string is 'FooBar'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-3  - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-Foo
-Type the 2nd string:
-Foo
-Concatenated string is 'FooFoo'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-4  - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-Foo
-Type the 2nd string:
-B
-Concatenated string is 'FooB'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-5  - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-B
-Type the 2nd string:
-Bar
-Concatenated string is 'BBar'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-6  - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-Foo
-Type the 2nd string:
-123
-Concatenated string is 'Foo123'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-7  - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-123
-Type the 2nd string:
-Bar
-Concatenated string is '123Bar'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-8  - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-Foo
-Type the 2nd string:
-#
-Concatenated string is 'Foo#'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-9  - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-#
-Type the 2nd string:
-Bar
-Concatenated string is '#Bar'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-10 - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-Foo
-Type the 2nd string:
-
-Concatenated string is 'Foo'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-   
-============================================
-- - - - - - - - -  Test-11 - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-
-Type the 2nd string:
-Bar
-Concatenated string is 'Bar'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-12 - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-FOO
-Type the 2nd string:
-Bar
-Concatenated string is 'FOOBar'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-13 - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-Foo
-Type the 2nd string:
-\n
-Concatenated string is 'Foo\n'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-14 - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-\n
-Type the 2nd string:
-Bar
-Concatenated string is '\nBar'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-15 - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-Foo
-Type the 2nd string:
-BAR
-Concatenated string is 'FooBAR'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-16 - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-Foo
-Type the 2nd string:
-
-Concatenated string is 'Foo '
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-17 - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-
-Type the 2nd string:
-Bar
-Concatenated string is ' Bar'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-============================================
-- - - - - - - - -  Test-18 - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-Foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-Type the 2nd string:
-zsh: trace trap  ./manipulating
-
-============================================
-- - - - - - - - -  Test-19 - - - - - - - - -
-============================================
-*** Start of Concatenating strings Demo ***
-Type the 1st string (q - to quit):
-Foo
-Type the 2nd string:
-q
-Concatenated string is 'Fooq'
-Type the 1st string (q - to quit):
-q
-*** End of Concatenatinag strinas Demo ***
-
-
+VERSION-1 TEST CASES
 
 ============================================
 - - - - - - - - -  Test-1  - - - - - - - - -
@@ -555,6 +804,76 @@ q
 *** End of Indexing strinas Demo ***
 
 
+VERSION-2 TEST CASES
+
+
+============================================
+- - - - - - - - -  Test-1  - - - - - - - - -
+============================================
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+q
+*** End of Measuring Strings Demo ***
+
+
+============================================
+- - - - - - - - -  Test-2  - - - - - - - - -
+============================================
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+
+The length of '' is 0 characters
+
+
+============================================
+- - - - - - - - -  Test-3  - - - - - - - - -
+============================================
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+s
+The length of 's' is 1 character
+
+
+============================================
+- - - - - - - - -  Test-4  - - - - - - - - -
+============================================
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+Hello User
+The length of 'Hello User' is 10 characters
+
+
+============================================
+- - - - - - - - -  Test-5  - - - - - - - - -
+============================================
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+This test is to check if the program runs successfully
+The length of 'This test is to check if the program runs successfully' is 54 characters
+
+
+============================================
+- - - - - - - - -  Test-6  - - - - - - - - -
+============================================
+
+ *** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+Hello
+The length of 'Hello' is 5 characters
+Type a string (q - to quit):
+q
+*** End of Measuring Strings Demo ***
+
+
+
+
+
+
 
 
 ============================================
@@ -594,3 +913,40 @@ Converted number is 1
 Type an int numeric string (g - to quit):
 2147483648
 Converted number is -2147483648
+============================================
+- - - - - - - - -  Test-7  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+12.34
+Converted number is 12.340000
+============================================
+- - - - - - - - -  Test-8  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+12.3a4
+Converted number is 12.300000
+============================================
+- - - - - - - - -  Test-9  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+q
+*** End of Converting Strings to double Demo ***
+============================================
+- - - - - - - - -  Test-10  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+1.7976931348623157E+308
+Converted number is 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368.000000
+============================================
+- - - - - - - - -  Test-11  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+2.225074e-308
+Converted number is 0.000000
+============================================
+- - - - - - - - -  Test-12  - - - - - - - - -
+============================================
+Type the double numeric string (q - to quit): 
+2.23E-308
+Converted number is 0.000000
+
